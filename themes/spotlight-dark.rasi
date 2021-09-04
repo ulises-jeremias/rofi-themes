@@ -1,7 +1,7 @@
 /*******************************************************************************
  * MACOS SPOTLIGHT LIKE DARK THEME FOR ROFI 
- * User                 : LR-Tech               
- * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ * User                 : ulises-jeremias               
+ * Theme Repo           : https://github.com/ulises-jeremias/rofi-themes
  *******************************************************************************/
 
 configuration {
@@ -101,4 +101,8 @@ configuration {
 #element-icon {
     size                : 1em;
     margin              : 0 16 0 0;
+    background-color    : transparent;
+}
+#element-text {
+    background-color    : transparent;
 }

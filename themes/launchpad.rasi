@@ -1,11 +1,11 @@
 /*******************************************************************************
  * MACOS LAUNCHPAD LIKE THEME FOR ROFI 
- * User                 : LR-Tech               
- * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ * User                 : ulises-jeremias               
+ * Theme Repo           : https://github.com/ulises-jeremias/rofi-themes
  *******************************************************************************/
 
 configuration {
-    font            : "Montserrat 10";
+    font            : "Hack Nerd Font Mono 10";
 }
 * {
     bg-color: #242424BF;
@@ -93,4 +93,8 @@ configuration {
 #element-icon {
     size                : 4em;
     margin              : 0 16 0 0;
+    background-color    : transparent;
+}
+#element-text {
+    background-color    : transparent;
 }

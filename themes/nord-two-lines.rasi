@@ -1,7 +1,7 @@
 /*******************************************************************************
  * ROFI TWO LINES THEME USING THE NORD COLOR PALETTE 
- * User                 : LR-Tech               
- * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ * User                 : ulises-jeremias               
+ * Theme Repo           : https://github.com/ulises-jeremias/rofi-themes
  * Nord Project Repo    : https://github.com/arcticicestudio/nord
  *******************************************************************************/
 
@@ -106,6 +106,10 @@ configuration {
 #element-icon {
     size                : 0.75em;
     margin              : 0 2 0 0;
+    background-color    : transparent;
+}
+#element-text {
+    background-color    : transparent;
 }
 #mode-switcher {
     padding             : 0;
