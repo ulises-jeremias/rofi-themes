@@ -33,7 +33,7 @@ configuration {
     border-color        : @insensitive-bg-color;
     padding             : 4 8;
     margin              : 0 30%;
-    font                : "Montserrat 12";
+    font                : "Hack Nerd Font Mono 12";
 }
 #prompt {
     enabled             : false;
