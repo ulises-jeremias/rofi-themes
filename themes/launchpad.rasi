@@ -19,9 +19,20 @@ configuration {
     text-color          : @fg-color;
 }
 #window {
-    background-color    : @bg-color;
-    fullscreen          : true;
-    padding             : 32 136;
+    transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  true;
+    x-offset:                    0px;
+    y-offset:                    0px;
+
+    enabled:                     true;
+    margin:                      0px;
+    padding:                     76 136;
+    border:                      0px solid;
+    border-radius:               0px;
+    background-color:            @bg-color;
+    cursor:                      "default";
 }
 #mainbox {
     background-color    : transparent;
@@ -29,10 +40,10 @@ configuration {
 #inputbar {
     background-color    : @insensitive-bg-color;
     border              : 2;
-    border-radius       : 4;
+    border-radius       : 16;
     border-color        : @insensitive-bg-color;
-    padding             : 4 8;
-    margin              : 0 30%;
+    padding             : 10px;
+    margin              : 7% 28%;
     font                : "Hack Nerd Font Mono 12";
 }
 #prompt {
@@ -59,13 +70,24 @@ configuration {
     background-color    : inherit;
 }
 #listview {
-    lines               : 5;
-    columns             : 7;
-    spacing             : 24;
-    scrollbar           : false;
-    background-color    : transparent;
-    margin              : 24 0 0;
-    fixed-columns       : true;
+    enabled:                     true;
+    columns:                     7;
+    lines:                       4;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    
+    spacing:                     36;
+    margin:                      24px;
+    padding:                     0px;
+    border:                      0px solid;
+    border-radius:               0px;
+    background-color:            transparent;
+    cursor:                      "default";
 }
 #element {
     orientation         : vertical;
@@ -91,7 +113,7 @@ configuration {
     text-color          : @selected-fg-color;
 }
 #element-icon {
-    size                : 4em;
+    size                : 5em;
     margin              : 0 16 0 0;
     background-color    : transparent;
 }
